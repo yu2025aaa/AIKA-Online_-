@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{E657618C-0652-4AA3-B353-B445B61D00B8}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="AikaServer.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AikaServer">
+        <MSBuild Projects="AikaServer.dproj"/>
+    </Target>
+    <Target Name="AikaServer:Clean">
+        <MSBuild Projects="AikaServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AikaServer:Make">
+        <MSBuild Projects="AikaServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AikaServer"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AikaServer:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AikaServer:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
