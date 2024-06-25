@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/10/26 21:22:25.000.398,=C:\ak_src\AIKA_SERVER\AikaServer GIT\Aika-Server-Emulator\AikaServer\Unit1.pas</Transaction>
+    <Transaction>2022/10/26 21:22:40.000.844,C:\ak_src\AIKA_SERVER\AikaServer GIT\Aika-Server-Emulator\AikaServer\Unit1.pas=C:\ak_src\AIKA_SERVER\AikaServer GIT\Aika-Server-Emulator\AikaServer\Src\Forms\dmMain.pas</Transaction>
+    <Transaction>2022/10/26 21:22:40.000.844,C:\ak_src\AIKA_SERVER\AikaServer GIT\Aika-Server-Emulator\AikaServer\Unit1.dfm=C:\ak_src\AIKA_SERVER\AikaServer GIT\Aika-Server-Emulator\AikaServer\Src\Forms\dmMain.dfm</Transaction>
+    <Transaction>2022/10/27 02:35:10.000.461,C:\ak_src\AIKA_SERVER\AikaServer GIT\Aika-Server-Emulator\AikaServer\Src\Forms\dmMain.pas=</Transaction>
+    <Transaction>2022/12/29 15:20:05.000.392,=C:\ak_src\AIKA_SERVER\AikaServer GIT\Aika-Server-Emulator\AikaServer\Src\Nation\CastleSiege.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Src"/>
+    <File Path="Src\Auction"/>
+    <File Path="Src\Auction\AuctionFunctions.pas"/>
+    <File Path="Src\Auction\CharacterAutcion.pas"/>
+    <File Path="Src\Connections"/>
+    <File Path="Src\Connections\EncDec.pas"/>
+    <File Path="Src\Connections\LoginSocket.pas"/>
+    <File Path="Src\Connections\ServerSocket.pas"/>
+    <File Path="Src\Connections\SQL.pas"/>
+    <File Path="Src\Connections\TokenSocket.pas"/>
+    <File Path="Src\Data"/>
+    <File Path="Src\Data\Entity"/>
+    <File Path="Src\Data\Entity\EntityFriend.pas"/>
+    <File Path="Src\Data\Entity\EntityMail.pas"/>
+    <File Path="Src\Data\FilesData.pas"/>
+    <File Path="Src\Data\GlobalDefs.pas"/>
+    <File Path="Src\Data\MiscData.pas"/>
+    <File Path="Src\Data\Packets.pas"/>
+    <File Path="Src\Data\PlayerData.pas"/>
+    <File Path="Src\Dungeons"/>
+    <File Path="Src\Dungeons\Dungeon.pas"/>
+    <File Path="Src\Forms"/>
+    <File Path="Src\Forms\PingBackForm.pas"/>
+    <File Path="Src\Forms\PingBackForm.dfm"/>
+    <File Path="Src\Forms\SendPacketForm.pas"/>
+    <File Path="Src\Forms\SendPacketForm.dfm"/>
+    <File Path="Src\Functions"/>
+    <File Path="Src\Functions\CpuUsage.pas"/>
+    <File Path="Src\Functions\Functions.pas"/>
+    <File Path="Src\Functions\ItemFunctions.pas"/>
+    <File Path="Src\Functions\Load.pas"/>
+    <File Path="Src\Functions\Log.pas"/>
+    <File Path="Src\Functions\R_Paneil.pas"/>
+    <File Path="Src\Functions\SkillFunctions.pas"/>
+    <File Path="Src\Functions\Util.pas"/>
+    <File Path="Src\Guild"/>
+    <File Path="Src\Guild\GuildData.pas"/>
+    <File Path="Src\Mail"/>
+    <File Path="Src\Mail\CharacterMail.pas"/>
+    <File Path="Src\Mail\MailFunctions.pas"/>
+    <File Path="Src\Mob"/>
+    <File Path="Src\Mob\BaseMob.pas"/>
+    <File Path="Src\Mob\MOB.pas"/>
+    <File Path="Src\Mob\NPC.pas"/>
+    <File Path="Src\Mob\Objects.pas"/>
+    <File Path="Src\Mob\PET.pas"/>
+    <File Path="Src\Mob\Player.pas"/>
+    <File Path="Src\Nation"/>
+    <File Path="Src\Nation\Nation.pas"/>
+    <File Path="Src\Nation\CastleSiege.pas"/>
+    <File Path="Src\PacketHandlers"/>
+    <File Path="Src\PacketHandlers\AuthHandlers.pas"/>
+    <File Path="Src\PacketHandlers\CommandHandlers.pas"/>
+    <File Path="Src\PacketHandlers\NPCHandlers.pas"/>
+    <File Path="Src\PacketHandlers\PacketHandlers.pas"/>
+    <File Path="Src\Party"/>
+    <File Path="Src\Party\PartyData.pas"/>
+    <File Path="Src\Threads"/>
+    <File Path="Src\Threads\ConnectionsThread.pas"/>
+    <File Path="Src\Threads\PlayerThread.pas"/>
+    <File Path="Src\Threads\UpdateThreads.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>
